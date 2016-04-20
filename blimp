@@ -1,0 +1,39 @@
+push
+translate
+250 300 0
+yrotate
+20
+push
+#balloon
+scale
+2 1 0
+sphere
+0 0 100
+pop
+push
+#people area
+translate
+0 -100 0
+box
+-75 20 0 150 50 20
+pop
+push
+#fin 1
+translate
+150 50 0
+zrotate
+45
+box
+0 0 0 40 50 5
+pop
+push
+#fin 2
+translate
+170 -85 0
+zrotate
+135
+box
+0 0 0 40 50 5
+save
+blimp.png
+quit
